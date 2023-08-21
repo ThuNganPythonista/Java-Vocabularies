@@ -1,7 +1,8 @@
-# Java-Syntax and introduction :
+# Java introduction :
 1. To find out what is JDK, JRE and JVM :
     *you can access this link : [https://s.net.vn/o0tY]
-2. An instant noodle for learning Java when you already learnt other programming languages 
+2. An instant noodle for learning Java when you already learnt other programming languages
+   
 Format prints "hello world" :
 ```python
     class HelloWorld{
@@ -19,7 +20,7 @@ There are four kinds of variables :
 
   +Instance Variables
   
-  +Instance Variables
+  +Class Variables
   
   +Local Variables 
   
@@ -27,7 +28,7 @@ There are four kinds of variables :
 
   - int : integer number (ex : int speed = 80 ). It values from -2^31 to 2^31 - 1
 ```python
-class number {
+class Ngan {
     public static void main(String[] args) {
         
         int a = 23;
@@ -39,7 +40,7 @@ OUTCOME : 23
   - boolean : set variable true or false
 
 ```python
-class BooleanVariable {
+class Ngan {
     public static void main(String[] args) {
         
         boolean answer = true;
@@ -49,17 +50,130 @@ class BooleanVariable {
 ```
 OUTCOME : true
   - byte : replaced for "int" to save memory if data is between [-121,127]
+
+```python
+class Ngan {
+    public static void main(String[] args) {
+        byte test;
+        test = 009;
+        System.out.println(test);
+    }
+}
+```
+OUTCOME : 009
   - short : same as byte, but the value is between [-32768, 32767]
+
+```python
+class Ngan {
+    public static void main(String[] args) {
+        
+        short tem = -330;
+        System.out.println(tem);
+    }
+}
+```
+OUTCOM : -330
   - long : same, the value is between -2^63 and 2^63 - 1.
-    => long myvariable = 4526354632L
-    *The L at the end of the number 42332200000 is inseparable. It represents data of variable long*
+```python    
+   class Ngan {
+       public static void main(String[] args) {
+        
+        long bignum = 4526354632L;
+        System.out.println(bignum);
+    }
+}
+```
+OUTCOME :4526354632
+
+*The L at the end of the number 42332200000 is inseparable. It represents data of variable long*
+    
   - double : decimal number with 64 bit
-    => double myvariable = 4.5d
+```python    
+   class Ngan {
+       public static void main(String[] args) {
+        
+        double decimal = 14.5d;
+        System.out.println(decimal);
+    }
+}
+```
+    => double decimal = 14.5d
   -  float : same as double, but it values 32 bit.
+
+```python    
+   class Ngan {
+       public static void main(String[] args) {
+        
+        float decimal =-6.9;
+        System.out.println(bignum);
+    }
+}
+```
   -  char : this one is used for single letters liek 'a' or $,# etc... and unicode.
-    => char myvariable = 'h'
+    
+```python    
+   class Ngan {
+       public static void main(String[] args) {
+        
+        char single-word ='h';
+        System.out.println(single-word);
+    }
+}
+```
+OUTCOME : h
+
     => char myunicode = '\u0000' means 'Q'
-     *you can check GG for unicode table in java*
+```python    
+   class Ngan {
+       public static void main(String[] args) {
+        
+        char single-word ='\u0041\';
+        System.out.println(single-word);
+    }
+}
+```
+*You can check GG for unicode table in java*
+
+     
+  # Level 2 : Java literals
+
+  Hmm what is "literals" ? Let's take a look
+
+  `int number = 8`
+
+  + int : data type
+  + number : variable
+  + 8  : LITERAL
+
+    Any fixed values will be put in open source of the program, and it's no need to evaluate or calculate.
+
+##### Integer literals #####
+
+- Integer literals are data types : byte, int, long, short 
+
+##### Hexadecimal Literal (0x) : #####
+   + digits : 0 --> 9
+   + A-F    : 0 --> 15
+
+ => For example : Ox1F is 31
+
+  #####  WHY? WHY 1F = 31 #####
+
+  1 is in the index position of 1 from the right --> 1 * 16^1 = 16
+  F is in the index position of 0 from the right --> 15 * 16^0 = 15
+
+             15+16 = 31
+             
+`int hexadecimal = 0xF2`
+
+2 is in the index position of 0 from the right --> 2 * 16^0 = 2
+F is in the index position of 1 from the right --> 15 * 16^1 = 240
+
+         240 + 2 = 242 
   
+##### Binary Literal (0b) : #####
+
+
+
 
 
