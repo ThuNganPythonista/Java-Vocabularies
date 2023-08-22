@@ -151,7 +151,7 @@ OUTCOME : h
 
 - Integer literals are data types : byte, int, long, short 
 
-##### Hexadecimal Literal (0x) : #####
+##### Hexadecimal Literal (0x) : the base-16 number system #####
    + digits : 0 --> 9
    + A-F    : 0 --> 15
 
@@ -171,7 +171,20 @@ F is in the index position of 1 from the right --> 15 * 16^1 = 240
 
          240 + 2 = 242 
   
-##### Binary Literal (0b) : #####
+##### Binary Literal (0b) : the base-2 number system #####
+
+- Digits 0 and 1 only
+
+  ==> For example : 0b10010
+
+  Now we start from number of index position 0 in the right side and count up. The index number is power of 2
+
+`int binary = 0b10010 -> #Ob43210 -> #0b(2^0+2^1+2^2+2^3+2^4) `
+
+We have the calculation with the 2-based number system : 0 * (2^0)+ 1* (2^1)+ 0* (2^2)+ 0 * (2^3)+ 0 * (2^4) = 19
+
+
+
 
 
 
