@@ -1,7 +1,7 @@
 # Java introduction :
 1. To find out what is JDK, JRE and JVM :
     *you can access this link : [https://s.net.vn/o0tY]
-2. An instant noodle for learning Java when you already learnt other programming languages
+2. Some common Java formula when you already learnt other programming languages
    
 Format prints "hello world" :
 ```python
